@@ -1,0 +1,145 @@
+.login_page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.login_left {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.login_right {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.login_left svg {
+  width: 76%;
+  height: 97%;
+}
+main{
+  width: 100%;
+}
+.login {
+  color: var(--Text-color, #04072F);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 110%;
+}
+.login_group {
+  flex-direction: column;
+  display: flex;
+}
+
+.login_details {
+  width: 100%;
+  margin: 3% 3%;
+  padding: 5%;
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.16);
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+lable#input_field{
+  color: var(--Text-color, #04072F);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 110%;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+input#Loginid_text {
+  border-radius: 8px;
+  border: 1px solid rgba(4, 7, 47, 0.40);
+  height: 45px;
+  color: var(--Light-Color---1, #737B86);
+  font-size: 18px;
+  padding: 0px 8px;
+}
+.checkbox-1 {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+#checkbox{
+  accent-color: green;
+}
+#alert {
+  color: var(--Light-Color---1, #737B86);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+span {
+  color: var(--Secondary---1, #F78719);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.pass_change {
+  color: var(--Secondary---1, #F78719);
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 110%;
+}
+.log_in {
+  height: 56px;
+  width: 538px;
+  border-radius: 8px;
+  background: var(--Primary---1, #1575A7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color, #FFF);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.account {
+  color: #04072F;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+.register {
+  color: var(--Secondary---1, #F78719);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-align: center;
+}
+input[type="password"] {
+border: none;
+color: var(--Light-Color---1, #737B86);
+font-size: 18px;
+}
+div#Loginid_text {
+display: flex;
+justify-content: space-between;
+border-radius: 8px;
+border: 1px solid rgba(4, 7, 47, 0.40);
+padding: 0px 8px;
+}
+.login_bottom{
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+svg{
+  height: 44px;
+}
